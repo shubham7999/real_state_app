@@ -35,6 +35,38 @@ This is a simple real estate application that provides APIs for managing houses.
 ```bash
 go mod download
 
+## API Endpoints
+
+### Upload House Details
+
+- **Method:** POST
+- **Endpoint:** `/api/v1/houses`
+- **Payload:** JSON data with house details
+
+### Get House Details
+
+- **Method:** GET
+- **Endpoint:** `/api/v1/houses/{id}`
+- **Parameters:** `id` (House ID)
+
+### List All Houses
+
+- **Method:** GET
+- **Endpoint:** `/api/v1/houses`
+
+### Update House Details
+
+- **Method:** PUT
+- **Endpoint:** `/api/v1/houses/{id}`
+- **Parameters:** `id` (House ID)
+- **Payload:** JSON data with updated details
+
+### Delete House
+
+- **Method:** DELETE
+- **Endpoint:** `/api/v1/houses/{id}`
+- **Parameters:** `id` (House ID)
+
 
 ## Docker
 To run the application using Docker:
