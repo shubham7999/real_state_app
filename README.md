@@ -30,3 +30,7 @@ This is a simple real estate application that provides APIs for managing houses.
    ```bash
    git clone https://github.com/your_username/real-estate-app.git
    cd real-estate-app
+
+## Install Dependencies
+```bash
+go mod download
