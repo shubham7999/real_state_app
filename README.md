@@ -35,11 +35,15 @@ This is a simple real estate application that provides APIs for managing houses.
 ```bash
 go mod download
 
+
 ## Docker
 To run the application using Docker:
 
 ```bash
 docker build -t real-estate-app .
 docker run -p 8080:8080 real-estate-app
+
+
+
 
 
