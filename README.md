@@ -25,15 +25,7 @@ This is a simple real estate application that provides APIs for managing houses.
 - Go installed on your machine
 - Docker (optional, for containerization)
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/real-estate-app.git
-   cd real-estate-app
 
-## Install Dependencies
-```bash
-go mod download
 
 ## API Endpoints
 
@@ -66,6 +58,43 @@ go mod download
 - **Method:** DELETE
 - **Endpoint:** `/api/v1/houses/{id}`
 - **Parameters:** `id` (House ID)
+
+
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_username/real-estate-app.git
+   cd real-estate-app
+
+# Usage
+
+Run the application:
+
+```bash
+go run main.go
+
+
+
+
+## Install Dependencies
+Run the application:
+
+```bash
+go run main.go
+
+
+
+## **API Endpoints**
+
+
+| Endpoint                | Method | Parameters | Payload                              |
+|-------------------------|--------|------------|--------------------------------------|
+| `/api/v1/houses`        | POST   | -          | JSON data with house details         |
+| `/api/v1/houses/{id}`   | GET    | `id` (House ID) | -                          |
+| `/api/v1/houses`        | GET    | -          | -                                    |
+| `/api/v1/houses/{id}`   | PUT    | `id` (House ID) | JSON data with updated details    |
+| `/api/v1/houses/{id}`   | DELETE | `id` (House ID) | -                                    |
 
 
 ## Docker
