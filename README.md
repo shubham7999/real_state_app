@@ -84,22 +84,30 @@ go run main.go
 ## Docker
 To run the application using Docker:
 
+Step 1:
 ```bash
-Step 1: docker build -t real-estate-app .
+ docker build -t real-estate-app .
 ```
-
+Step 2:
 ```bash
-Step 2: docker run -p 8080:8080 real-estate-app
+ docker run -p 8080:8080 real-estate-app
 ```
 
 ## Testing
 
 To ensure the correctness of the application, run the following unit tests:
 
+Step-1:
 ```bash
-1. go test ./...
-2. go test ./... -coverprofile=coverage.out
-3. go tool cover -func=coverage.out  
+ go test ./...
+```
+Step-2
+```bash
+  go test ./... -coverprofile=coverage.out
+```
+Step-3
+```bash
+ go tool cover -func=coverage.out  
 ```
 
 
