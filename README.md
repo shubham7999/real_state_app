@@ -85,8 +85,11 @@ go run main.go
 To run the application using Docker:
 
 ```bash
-docker build -t real-estate-app .
-docker run -p 8080:8080 real-estate-app
+Step 1: docker build -t real-estate-app .
+```
+
+```bash
+Step 2: docker run -p 8080:8080 real-estate-app
 ```
 
 ## Testing
