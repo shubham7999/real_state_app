@@ -90,7 +90,9 @@ docker run -p 8080:8080 real-estate-app
 To ensure the correctness of the application, run the following unit tests:
 
 ```bash
-go test ./...
+1. go test ./...
+2. go test ./... -coverprofile=coverage.out
+3. go tool cover -func=coverage.out  
 ```
 
 
