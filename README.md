@@ -10,8 +10,7 @@ This is a simple real estate application that provides APIs for managing houses.
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Docker](#docker)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - Upload house details
@@ -25,7 +24,22 @@ This is a simple real estate application that provides APIs for managing houses.
 - Go installed on your machine
 - Docker (optional, for containerization)
 
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_username/real-estate-app.git
+   cd real-estate-app
 
+## Usage
+
+Run the application:
+
+```bash
+go run main.go
+
+```
+
+   
 
 ## API Endpoints
 
@@ -61,30 +75,6 @@ This is a simple real estate application that provides APIs for managing houses.
 
 
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/real-estate-app.git
-   cd real-estate-app
-
-# Usage
-
-Run the application:
-
-```bash
-go run main.go
-
-
-
-
-## Install Dependencies
-Run the application:
-
-```bash
-go run main.go
-
-
-
 
 ## Docker
 To run the application using Docker:
@@ -92,6 +82,17 @@ To run the application using Docker:
 ```bash
 docker build -t real-estate-app .
 docker run -p 8080:8080 real-estate-app
+```
+
+## Testing
+
+To ensure the correctness of the application, run the following unit tests:
+
+```bash
+go test ./...
+```
+
+
 
 
 
