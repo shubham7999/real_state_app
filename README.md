@@ -27,7 +27,7 @@ This is a simple real estate application that provides APIs for managing houses.
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/real-estate-app.git
+   git clone https://github.com/shubham7999/real_state_assignment.git
    cd real-estate-app
 
 ## Usage
