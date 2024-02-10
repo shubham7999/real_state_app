@@ -35,14 +35,17 @@ This is a simple real estate application that provides APIs for managing houses.
     ```
 
 ## Usage
+1 . Install Dependencies 
+```bash
+go mod download
+```
 
-1. Run the application:
-
+2. Run the application:
 ```bash
 go run main.go
-
 ```
-2. Access the APIs at http://localhost:8080/api/v1/houses
+
+3. Access the APIs at http://localhost:8080/api/v1/houses
 
    
 
