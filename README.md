@@ -32,12 +32,13 @@ This is a simple real estate application that provides APIs for managing houses.
 
 ## Usage
 
-Run the application:
+1. Run the application:
 
 ```bash
 go run main.go
 
 ```
+2. Access the APIs at http://localhost:8080/api/v1/houses
 
    
 
