@@ -28,7 +28,11 @@ This is a simple real estate application that provides APIs for managing houses.
 1. Clone the repository:
    ```bash
    git clone https://github.com/shubham7999/real_state_assignment.git
-   cd real_state_assignment
+   ```
+2. Go to working Directory
+    ```  
+    cd real_state_assignment
+    ```
 
 ## Usage
 
