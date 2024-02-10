@@ -85,17 +85,6 @@ go run main.go
 
 
 
-## **API Endpoints**
-
-
-| Endpoint                | Method | Parameters | Payload                              |
-|-------------------------|--------|------------|--------------------------------------|
-| `/api/v1/houses`        | POST   | -          | JSON data with house details         |
-| `/api/v1/houses/{id}`   | GET    | `id` (House ID) | -                          |
-| `/api/v1/houses`        | GET    | -          | -                                    |
-| `/api/v1/houses/{id}`   | PUT    | `id` (House ID) | JSON data with updated details    |
-| `/api/v1/houses/{id}`   | DELETE | `id` (House ID) | -                                    |
-
 
 ## Docker
 To run the application using Docker:
