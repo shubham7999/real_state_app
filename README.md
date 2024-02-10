@@ -22,7 +22,7 @@ This is a simple real estate application that provides APIs for managing houses.
 
 ## Prerequisites
 - Go installed on your machine
-- Docker (optional, for containerization)
+- Docker (for containerization)
 
 ## Installation
 1. Clone the repository:
