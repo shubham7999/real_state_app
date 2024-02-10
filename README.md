@@ -16,7 +16,7 @@ This is a simple real estate application that provides APIs for managing houses.
 - Upload house details
 - Get house details
 - List all houses
-- Update house details (e.g., mark as sold)
+- Update house details 
 - Delete a house
 - Logging middleware for request logging
 
